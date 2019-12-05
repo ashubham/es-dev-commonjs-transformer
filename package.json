@@ -1,6 +1,6 @@
 {
   "name": "es-dev-commonjs-transformer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CommonJS Module transformer for the es-dev-server",
   "main": "index.js",
   "scripts": {
