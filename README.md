@@ -1,6 +1,10 @@
 # es-dev-commonjs-transformer
 CommonJS Module transformer for the es-dev-server
 
+[![npm version](https://badge.fury.io/js/es-dev-commonjs-transformer
+.svg)](https://badge.fury.io/js/es-dev-commonjs-transformer
+)
+
 ## General Usage
 
 ```js
