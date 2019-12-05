@@ -1,0 +1,29 @@
+{
+  "name": "es-dev-commonjs-transformer",
+  "version": "0.1.0",
+  "description": "CommonJS Module transformer for the es-dev-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashubham/es-dev-commonjs-transformer.git"
+  },
+  "keywords": [
+    "es-dev-server",
+    "commonjs",
+    "rollup"
+  ],
+  "dependencies": {
+    "acorn": "^7.1.0",
+    "minimatch": "^3.0.4",
+    "rollup-plugin-commonjs": "^10.1.0"
+  },
+  "author": "ashubham@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashubham/es-dev-commonjs-transformer/issues"
+  },
+  "homepage": "https://github.com/ashubham/es-dev-commonjs-transformer#readme"
+}
