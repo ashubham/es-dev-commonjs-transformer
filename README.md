@@ -6,12 +6,13 @@ CommonJS Module transformer for the es-dev-server. Uses [Rollup commonjs plugin]
 ```js
 // In
 const a = require('dep');
-
+...
 module.exports = a;
-
+```
+```js
 // Out
 import a from 'dep';
-
+...
 export a;
 ```
 
