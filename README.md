@@ -13,7 +13,7 @@ module.exports = a;
 // Out
 import a from 'dep';
 ...
-export a;
+export default a;
 ```
 
 ## General Usage
