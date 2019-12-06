@@ -3,7 +3,7 @@
 
 CommonJS Module transformer for the es-dev-server. Uses [Rollup commonjs plugin](https://github.com/rollup/rollup-plugin-commonjs) under the hoods to do the transformation. It converts commonjs modules to ES6 format for consumption by the es-dev-server which again transforms it for consumption by the browser.
 
-```
+```js
 // In
 const a = require('dep');
 
