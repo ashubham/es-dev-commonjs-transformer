@@ -1,7 +1,7 @@
 # es-dev-commonjs-transformer
 [![npm version](https://badge.fury.io/js/es-dev-commonjs-transformer.svg)](https://badge.fury.io/js/es-dev-commonjs-transformer)
 
-CommonJS Module transformer for the es-dev-server. It converts commonjs modules to ES6 format. Uses [Rollup commonjs plugin](https://github.com/rollup/rollup-plugin-commonjs) under the hoods to do the transformation.
+CommonJS Module transformer for the es-dev-server. It converts modules cjs -> esm format. Uses [Rollup commonjs plugin](https://github.com/rollup/rollup-plugin-commonjs) under the hoods to do the transformation.
 
 ```js
 // In
