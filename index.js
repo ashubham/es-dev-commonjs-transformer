@@ -23,7 +23,7 @@ transformer.error = function(...args) {
 
 function cjsTransformer(excludePaths = []) {
     return async function ({url, status, contentType, body}) {
-        if(!url.endsWith('.js')) {
+        if(!url.endsWith('js')) {
             return {body, contentType};
         }
 
