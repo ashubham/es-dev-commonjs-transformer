@@ -25,11 +25,10 @@ import cjsTransformer from 'es-dev-commonjs-transformer';
 
 module.exports = {
     responseTransformers: [
-        cjsTransformer(
-            /* Exclude Paths Array */
+        cjsTransformer(/* Exclude Paths Array */ [
             '**/node_modules/@open-wc/**/*',
             ...
-        )
+        ])
     ]
 }
 ```
@@ -52,12 +51,12 @@ module.exports = config => {
     
     esm: {
         responseTransformers: [
-        cjsTransformer(
+        cjsTransformer([
                 ...defaultConfig.esm.babelModernExclude,
                 '**/node_modules/@open-wc/**/*',
                 '**/node_modules/chai-dom/**/*',
                 '**/node_modules/sinon-chai/**/*'
-            )
+            ])
         ]
     }
 }
