@@ -1,4 +1,4 @@
-const commonjs = require('rollup-plugin-commonjs');
+const commonjs = require('@rollup/plugin-commonjs');
 const acorn = require("acorn");
 const minimatch = require("minimatch")
 const path = require("path");
